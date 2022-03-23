@@ -36,7 +36,11 @@ body{
 }
 button{
     cursor: pointer;
+    position: relative;
+    box-shadow: 5px 5px black;
+
 }
+
 .button-container button{
     background: #616161;
     border: none;
@@ -55,4 +59,13 @@ button{
     align-items: center;
     background-color: #c1c1c1;
     border-top: 10px solid #616161;
+}
+button:hover{
+    background: #505050;
+}
+button:active{
+    background: #464646;
+    top: 5px;
+    left: 5px;
+    box-shadow: none;
 }
